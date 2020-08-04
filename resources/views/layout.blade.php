@@ -10,7 +10,7 @@
     <script src="{{ asset('js/bootstrap-select.min.js') }}"></script>
     <script src="{{ asset('js/jquery-3.5.1.js') }}"></script>
     <script src="{{ asset('js/funciones.js') }}"></script>
-    <title>-PruebaVentas-</title>
+    <title>POS System</title>
 </head>
 <body>
     <div id="app" class="d-flex flex-column app-height justify-content-between">
