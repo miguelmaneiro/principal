@@ -1,0 +1,19 @@
+<?php
+  
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Persona extends Model
+{
+    protected $table = 'personas';
+    protected $primaryKey = 'idpersona';
+    public $timestamps = false;
+
+    public $guarded = [];
+
+    public function ingresos()
+    {
+            return $this->hasMany('App\Ingreso', 'idproveedor', 'idpersona');
+    }
+}
